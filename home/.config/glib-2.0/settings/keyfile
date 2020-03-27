@@ -1,0 +1,19 @@
+[org/gtk/settings/file-chooser]
+window-position=(263, 133)
+window-size=(837, 500)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=158
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+
+[org/gnome/file-roller/listing]
+show-path=false
+
+[org/gnome/desktop/background]
+show-desktop-icons=true
