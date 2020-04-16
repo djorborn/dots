@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# This script sets color variables
+
+BLACK="0;30"
+WHITE="0;38"
+GREY="0:37"
+BLUE="0;34"
+GREEN="0;32"
+CYAN="0;36"
+RED="0;31"
+PURPLE="0;35"
+BROWN="0;33"
+
+
+LBLACK="1;30"
+LWHITE="1;38"
+LGREY="1:37"
+LBLUE="1;34"
+LGREEN="1;32"
+LCYAN="1;36"
+LRED="1;31"
+LPURPLE="1;35"
+LBROWN="1;33"
+
