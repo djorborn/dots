@@ -1,4 +1,13 @@
 $include /etc/inputrc
 
+# Helpfull stuff
+# fc command to edit the last entered command in $EDITOR
+# Ctrl-X + Ctrl-e let you edti a command in $EDITOR
+
+# Page Up and Down through history
 "\e[5~": history-search-backward   
 "\e[6~": history-search-forward
+
+
+# Settings
+# set editor-mode vi

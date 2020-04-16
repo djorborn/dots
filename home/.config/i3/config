@@ -120,7 +120,7 @@ bindsym $mod+Tab workspace back_and_forth
 bindsym $mod+Shift+Tab move container to workspace back_and_forth
 
 # No window title Yeah!!!
-new_window pixel
+default_border pixel
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad

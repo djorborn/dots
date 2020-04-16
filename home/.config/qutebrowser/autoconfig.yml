@@ -9,5 +9,6 @@ settings:
   content.notifications:
     https://wowroms.com: false
     https://www.reddit.com: false
+    https://www.youtube.com: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
