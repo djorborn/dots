@@ -25,8 +25,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use xbacklight to adjust brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5% && notify-send XBACKLIGHT $(dc -e "$(cat /sys/class/backlight/intel_backlight/brightness) 60 / p") -t 500
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5% && notify-send XBACKLIGHT $(dc -e "$(cat /sys/class/backlight/intel_backlight/brightness) 60 / p") -t 500
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5% && killall dunst && notify-send XBACKLIGHT $(dc -e "$(cat /sys/class/backlight/intel_backlight/brightness) 60 / p") -t 500
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5% && killall dunst && notify-send XBACKLIGHT $(dc -e "$(cat /sys/class/backlight/intel_backlight/brightness) 60 / p") -t 500
 
 # Open qutebrowser because it is the best
 bindsym $mod+Shift+w exec qutebrowser
