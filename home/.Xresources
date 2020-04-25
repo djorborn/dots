@@ -38,11 +38,11 @@ URxvt*scrollBar_right:   false
 
 URxvt*transparent:       false
 
-URxvt.font: xft:Ohsnap.Icons:pixelsize=14
+URxvt.font: xft:SourceCodePro+Powerline+Awesome:pixelsize=12
 URxvt.letterSpace: 0
 
-*antialias:  false
-*autohint:   false
+*antialias: true
+*autohint: medium
 
 URxvt.perl-ext-common: default,clipboard,matcher
 URxvt.url-launcher: qutebrowser
