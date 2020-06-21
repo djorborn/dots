@@ -1,0 +1,12 @@
+alias zalias="$EDITOR ~/.config/zsh/alias.zsh"
+alias zshrc="$EDITOR ~/.zshrc"
+alias zfunc="$EDITOR $HOME/.config/zsh/functions.zsh"
+alias ddgr="BROWSER=w3m ddgr"
+alias goto="cd"
+alias whereami="pwd"
+alias takemeto="goto"
+alias hello="echo 'Hello, how are you?'"
+alias I="echo 'Sorry to hear that, I hope you feel better soon'"
+alias cd2="cd $2 $1"
+
+alias BLOG="~/projects/blog"
